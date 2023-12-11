@@ -9,7 +9,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    transition: all .3s ease;
+    transition: all 0.7s ease;
 }
 
 ul[class],
@@ -126,7 +126,7 @@ button {
             }
         }
     }
-    // navbar__body 
+    // navbar__body
     &__body {
         nav {
             ul {
@@ -160,12 +160,50 @@ button {
     }
     // navbar__footer user
     &__footer {
-        position: absolute;
-        bottom: 2%;
         border-top: 2px solid $light__blue;
-        width: 80%;
+        width: 100%;
+        margin: 30px auto;
     }
     &__user {
         padding: 10px 0;
+    }
+    .btn__second {
+        display: none;
+    }
+}
+// скрытие
+.navbar__active {
+    width: 100px;
+    .navbar {
+        padding: 10px 0;
+    }
+    .navbar__head .btn {
+        display: none;
+    }
+    .navbar__logo img {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+    .navbar__logo h1 {
+        display: none;
+    }
+    .navbar__body nav ul li a {
+        display: none;
+    }
+    .navbar__body ul {
+        margin: 20px 0;
+    }
+    .navbar__body li {
+        margin: 2px 0;
+    }
+    .navbar__footer {
+        border: 0;
+    }
+    .navbar__footer .navbar__user-name {
+        display: none;
+    }
+    .btn__second {
+        display: block;
     }
 }

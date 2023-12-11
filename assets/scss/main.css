@@ -33,7 +33,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  transition: all 0.3s ease;
+  transition: all 0.7s ease;
 }
 
 ul[class],
@@ -178,11 +178,49 @@ button {
   color: #fff;
 }
 .navbar__footer {
-  position: absolute;
-  bottom: 2%;
   border-top: 2px solid #344055;
-  width: 80%;
+  width: 100%;
+  margin: 30px auto;
 }
 .navbar__user {
   padding: 10px 0;
+}
+.navbar .btn__second {
+  display: none;
+}
+
+.navbar__active {
+  width: 100px;
+}
+.navbar__active .navbar {
+  padding: 10px 0;
+}
+.navbar__active .navbar__head .btn {
+  display: none;
+}
+.navbar__active .navbar__logo img {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.navbar__active .navbar__logo h1 {
+  display: none;
+}
+.navbar__active .navbar__body nav ul li a {
+  display: none;
+}
+.navbar__active .navbar__body ul {
+  margin: 20px 0;
+}
+.navbar__active .navbar__body li {
+  margin: 2px 0;
+}
+.navbar__active .navbar__footer {
+  border: 0;
+}
+.navbar__active .navbar__footer .navbar__user-name {
+  display: none;
+}
+.navbar__active .btn__second {
+  display: block;
 }/*# sourceMappingURL=main.css.map */
