@@ -7,6 +7,21 @@
   opacity: 0.5;
 }
 
+.btn__outline {
+  padding: 10px 50px;
+  background: transparent;
+  border: 2px solid #CBCFD5;
+  color: #344055;
+  border-radius: 18px;
+  font-weight: 500;
+}
+.btn__outline:hover {
+  background-color: #4F46E5;
+  border: 2px solid #4F46E5;
+  color: #fff;
+  opacity: 1;
+}
+
 .info__user {
   display: flex;
   align-items: center;
@@ -33,7 +48,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  transition: all 0.7s ease;
+  transition: all 0.3s ease;
 }
 
 ul[class],
@@ -106,7 +121,14 @@ button {
     scroll-behavior: auto !important;
   }
 }
+.wrapper {
+  display: flex;
+}
+
 .navbar {
+  position: relative;
+}
+.navbar__wrapper {
   min-height: 100vh;
   max-width: 320px;
   width: 100%;
@@ -150,6 +172,9 @@ button {
   width: 22px;
   height: 22px;
 }
+.navbar__body {
+  margin: 30px 0;
+}
 .navbar__body nav ul {
   display: flex;
   flex-direction: column;
@@ -189,38 +214,76 @@ button {
   display: none;
 }
 
-.navbar__active {
-  width: 100px;
+.body {
+  margin-left: 350px;
+  padding: 30px 0;
 }
-.navbar__active .navbar {
-  padding: 10px 0;
+.body__head-account {
+  background-color: #080325;
+  border-radius: 18px;
+  margin: 0 10px;
+  transition: all 0.3s ease;
 }
-.navbar__active .navbar__head .btn {
-  display: none;
+.body__head-account:hover {
+  opacity: 0.7;
 }
-.navbar__active .navbar__logo img {
-  margin: 0 auto;
+.body__head {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  width: 100%;
 }
-.navbar__active .navbar__logo h1 {
-  display: none;
+.body__head-support {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
-.navbar__active .navbar__body nav ul li a {
-  display: none;
+.body__head-support button {
+  margin: 0 10px;
 }
-.navbar__active .navbar__body ul {
+.body__head-support button:first-child {
+  margin-left: 0;
+}
+.body__user {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.body__balance {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
   margin: 20px 0;
 }
-.navbar__active .navbar__body li {
-  margin: 2px 0;
+.body__balance-item {
+  padding: 20px;
+  border: 2px solid #E2E8F0;
+  border-radius: 18px;
+  color: #344055;
+  cursor: pointer;
 }
-.navbar__active .navbar__footer {
-  border: 0;
+.body__balance-item:hover {
+  background-color: #4F46E5;
+  border: 2px solid #4F46E5;
+  color: #fff;
 }
-.navbar__active .navbar__footer .navbar__user-name {
-  display: none;
+.body__balance-item h1 {
+  font-size: 20px;
+  font-weight: 700;
 }
-.navbar__active .btn__second {
-  display: block;
+.body__balance-item h3 {
+  font-weight: 400;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+}
+.body__balance-item h3 img {
+  width: 36px;
+  height: 36px;
+}
+.body__news-wrapper {
+  display: flex;
+}
+.body__news-wrapper p {
+  margin: 0 10px;
 }/*# sourceMappingURL=main.css.map */

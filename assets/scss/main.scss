@@ -9,7 +9,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    transition: all 0.7s ease;
+    transition: all .3s ease;
 }
 
 ul[class],
@@ -79,17 +79,23 @@ button {
         scroll-behavior: auto !important;
     }
 }
+.wrapper {
+    display: flex;
+}
 // navbar
 .navbar {
-    min-height: 100vh;
-    max-width: 320px;
-    width: 100%;
-    height: 100%;
-    padding: 0 20px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: $dark__blue;
+    position: relative;
+    &__wrapper {
+        min-height: 100vh;
+        max-width: 320px;
+        width: 100%;
+        height: 100%;
+        padding: 0 20px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: $dark__blue;
+    }
     // navbar__head
     &__head {
         display: flex;
@@ -128,6 +134,7 @@ button {
     }
     // navbar__body
     &__body {
+        margin: 30px 0;
         nav {
             ul {
                 display: flex;
@@ -171,39 +178,78 @@ button {
         display: none;
     }
 }
-// скрытие
-.navbar__active {
-    width: 100px;
-    .navbar {
-        padding: 10px 0;
+// body main
+.body {
+    margin-left: 350px;
+    padding: 30px 0;
+    &__head-account {
+        background-color: $dark__blue;
+        border-radius: 18px;
+        margin: 0 10px;
+        transition: all .3s ease;
+        &:hover {
+            opacity: .7;
+        }
     }
-    .navbar__head .btn {
-        display: none;
-    }
-    .navbar__logo img {
-        margin: 0 auto;
+
+    &__head {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
+        width: 100%;
     }
-    .navbar__logo h1 {
-        display: none;
+    &__head-support {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        button {
+            margin: 0 10px;
+            &:first-child {
+                margin-left: 0;
+            }
+        }
     }
-    .navbar__body nav ul li a {
-        display: none;
+    &__user {
+        display: flex;
+        align-items: center;
+        padding: 10px;
     }
-    .navbar__body ul {
+    &__balance {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
         margin: 20px 0;
     }
-    .navbar__body li {
-        margin: 2px 0;
+    &__balance-item {
+        padding: 20px;
+        border: 2px solid $light__gray;
+        border-radius: 18px;
+        color: $light__blue;
+        cursor: pointer;
+        &:hover {
+            background-color: $violet;
+            border: 2px solid $violet;
+            color: #fff;
+        }
+        h1 {
+            font-size: 20px;
+            font-weight: 700;
+        }
+        h3 {
+            font-weight: 400;
+            font-size: 28px;
+            display: flex;
+            align-items: center;
+            padding-top: 30px;
+            img {
+                width: 36px;
+                height: 36px;
+            }
+        }
     }
-    .navbar__footer {
-        border: 0;
-    }
-    .navbar__footer .navbar__user-name {
-        display: none;
-    }
-    .btn__second {
-        display: block;
+    &__news-wrapper {
+        display: flex;
+        p {
+            margin: 0 10px;
+        }
     }
 }

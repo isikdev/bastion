@@ -1,8 +1,23 @@
+@import "_root";
 .btn {
     opacity: 1;
     transition: all 0.3s ease;
     &:hover {
         opacity: 0.5;
+    }
+}
+.btn__outline {
+    padding: 10px 50px;
+    background: transparent;
+    border: 2px solid $gray;
+    color: $light__blue;
+    border-radius: 18px;
+    font-weight: 500;
+    &:hover {
+        background-color: $violet;
+        border: 2px solid $violet;
+        color: #fff;
+        opacity: 1;
     }
 }
 .info {
