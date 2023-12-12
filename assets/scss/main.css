@@ -252,7 +252,7 @@ button {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 20px 0;
+  margin: 20px 20px 20px 0;
 }
 .body__balance-item {
   padding: 20px;
@@ -265,6 +265,9 @@ button {
   background-color: #4F46E5;
   border: 2px solid #4F46E5;
   color: #fff;
+}
+.body__balance-item:first-child {
+  margin: 0 0;
 }
 .body__balance-item h1 {
   font-size: 20px;
@@ -281,9 +284,15 @@ button {
   width: 36px;
   height: 36px;
 }
+.body__news marquee {
+  border: 2px solid #E2E8F0;
+  border-radius: 6px;
+  padding: 20px;
+}
 .body__news-wrapper {
   display: flex;
 }
 .body__news-wrapper p {
   margin: 0 10px;
+  color: #121212;
 }/*# sourceMappingURL=main.css.map */
