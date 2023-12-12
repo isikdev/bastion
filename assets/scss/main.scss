@@ -39,6 +39,13 @@ body {
     scroll-behavior: smooth;
     text-rendering: optimizeSpeed;
     font-family: "Inter", sans-serif;
+    &::-webkit-scrollbar {
+        width: 14px;
+        background-color: #e2e8f0;
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: #f8fafc;
+    }
 }
 
 ul[class],
@@ -86,8 +93,8 @@ button {
 .navbar {
     position: relative;
     &__wrapper {
-        min-height: 100vh;
         max-width: 320px;
+        min-height: 100%;
         width: 100%;
         height: 100%;
         padding: 0 20px;
@@ -95,6 +102,14 @@ button {
         top: 0;
         left: 0;
         background-color: $dark__blue;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: stretch;
+    }
+    &__head,
+    &__footer {
+        flex: 0 1 auto;
     }
     // navbar__head
     &__head {
@@ -135,6 +150,7 @@ button {
     // navbar__body
     &__body {
         margin: 30px 0;
+        flex: 1 1 auto;
         nav {
             ul {
                 display: flex;
@@ -181,7 +197,7 @@ button {
 // body main
 .body {
     margin-left: 350px;
-    padding: 30px 0;
+    padding: 30px;
     &__head-account {
         background-color: $dark__blue;
         border-radius: 18px;
@@ -203,6 +219,7 @@ button {
         width: 100%;
         button {
             margin: 0 10px;
+            width: 100%;
             &:first-child {
                 margin-left: 0;
             }
@@ -216,15 +233,16 @@ button {
     &__balance {
         display: flex;
         justify-content: space-between;
-        flex-wrap: wrap;
-        margin: 20px 20px 20px 0;
+        margin: 20px 0;
     }
     &__balance-item {
         padding: 20px;
+        margin: 0 10px;
         border: 2px solid $light__gray;
         border-radius: 18px;
         color: $light__blue;
         cursor: pointer;
+        width: 100%;
         &:hover {
             background-color: $violet;
             border: 2px solid $violet;
@@ -262,5 +280,77 @@ button {
             margin: 0 10px;
             color: #121212;
         }
+    }
+    &__transactions-title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 20px 0;
+    }
+    &__transactions-title-item {
+        h1 {
+            font-size: 32px;
+        }
+    }
+    &__transactions-search {
+        form {
+            display: flex;
+            align-items: center;
+            input {
+                border: 2px solid $light__gray;
+                border-radius: 1000px;
+                outline: none;
+                padding: 10px 20px;
+            }
+            button {
+                border: 0px none;
+                border-radius: 1000px;
+                outline: 0px none;
+                background-color: $violet;
+                padding: 10px;
+                margin-left: 10px;
+                &:hover {
+                    opacity: 0.7;
+                }
+            }
+        }
+    }
+    &__table-list {
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        thead {
+            tr {
+                width: 100%;
+                background-color: #f8fafc;
+                border: 0px none;
+                outline: 0px none;
+                td {
+                    font-size: 20px;
+                    font-weight: 600;
+                    padding: 10px;
+                    border: 0px none;
+                    outline: 0px none;
+                    text-align: center;
+                }
+            }
+        }
+        tbody {
+            padding: 10px 0;
+            margin: 10px 0;
+            tr {
+                padding: 10px 0;
+                margin: 10px 0;
+                td {
+                    text-align: center;
+                    font-size: 16px;
+                    padding: 20px 0;
+                }
+            }
+        }
+    }
+    &__balance-btc {
+        border-radius: 100%;
     }
 }
