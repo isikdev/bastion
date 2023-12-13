@@ -5,8 +5,11 @@ $('.count').each(function () {
     }, {
         duration: 2500,
         easing: 'swing',
-        step: function (now) { 
+        step: function (now) {
             $(this).text(Math.ceil(now));
         }
     });
 });
+$(window).on('load', function () {
+    preloader.delay(1800).fadeOut('slow');
+});  
