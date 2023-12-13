@@ -57,6 +57,9 @@
   text-align: center;
   align-items: center;
 }
+.iden__table p {
+  font-weight: 600;
+}
 
 .iden__item {
   width: 20px;
