@@ -12,5 +12,11 @@
         display: flex; 
         justify-content: center;
         align-items: center;
+        text-align: center;
+        padding: 20% 0;
+        h1 {
+            margin-left: 10px;
+            font-size: 30px;
+        }
     }
 }
