@@ -527,6 +527,9 @@ button {
   .body__table-list thead tr td {
     font-size: 12px;
   }
+  .body__table-list tbody tr td {
+    font-size: 14px;
+  }
   .body__balance-item {
     margin: 10px 0;
   }
@@ -557,10 +560,6 @@ button {
   }
   .btn__outline {
     margin: 10px 20px;
-  }
-  table {
-    overflow: scroll;
-    width: 100%;
   }
   .body__table {
     overflow: scroll;
