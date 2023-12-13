@@ -488,6 +488,9 @@ button {
 .body__table-list tbody tr td .btn__outline {
   padding: 10px 30px;
 }
+.body__table-list tbody tr button {
+  margin: 0 auto;
+}
 .body__balance-btc {
   border-radius: 100%;
   width: 28px;
