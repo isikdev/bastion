@@ -320,6 +320,7 @@ button {
 .body {
   padding: 30px;
   margin-left: 320px;
+  width: 100%;
 }
 .body__head-account {
   background-color: #080325;
