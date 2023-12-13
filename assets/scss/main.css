@@ -393,6 +393,9 @@ button {
   width: 28px;
   height: 28px;
 }
+.body__news {
+  margin: 20px 0;
+}
 .body__news marquee {
   border: 2px solid #E2E8F0;
   border-radius: 6px;

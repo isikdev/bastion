@@ -299,6 +299,7 @@ button {
         }
     }
     &__news {
+        margin: 20px 0;
         marquee {
             border: 2px solid $light__gray;
             border-radius: 6px;
