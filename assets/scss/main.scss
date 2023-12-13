@@ -5,6 +5,7 @@
 @import "_root";
 @import "_animate";
 @import "_preloader";
+@import "_responsive";
 *,
 *::before,
 *::after {
@@ -405,10 +406,5 @@ button {
         width: 28px;
         height: 28px;
         margin-right: 5px;
-    }
-}
-@media screen and (max-width: 1123px) {
-    .body__transactions-search form {
-        padding: 10px;
     }
 }
