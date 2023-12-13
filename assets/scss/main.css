@@ -102,9 +102,9 @@
   text-align: center;
   padding: 20% 0;
 }
-.preloader__wrapper h1 {
-  margin-left: 10px;
-  font-size: 30px;
+.preloader__wrapper img {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 *,
