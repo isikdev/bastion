@@ -562,4 +562,7 @@ button {
     overflow: scroll;
     width: 100%;
   }
+  .body__table {
+    overflow: scroll;
+  }
 }/*# sourceMappingURL=main.css.map */
