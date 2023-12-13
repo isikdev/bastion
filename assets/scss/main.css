@@ -576,4 +576,9 @@ button {
     padding: 30px 50px;
     white-space: nowrap;
   }
+}
+@media screen and (max-width: 360px) {
+  .body {
+    padding: 10px;
+  }
 }/*# sourceMappingURL=main.css.map */

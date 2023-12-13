@@ -487,3 +487,8 @@ button {
         white-space: nowrap;
     }
 }
+@media screen and (max-width: 360px) {
+    .body {
+        padding: 10px;
+    }
+}
