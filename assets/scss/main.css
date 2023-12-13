@@ -540,4 +540,16 @@ button {
     flex-wrap: wrap;
     margin: 10px 0;
   }
+}
+@media screen and (max-width: 600px) {
+  .body__transactions-search {
+    margin: 20px auto;
+  }
+  .body__transactions-title-item h1 {
+    text-align: center;
+    margin: 20px auto;
+  }
+  .body__transactions-title-item {
+    margin: 10px auto;
+  }
 }/*# sourceMappingURL=main.css.map */
