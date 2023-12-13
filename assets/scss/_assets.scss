@@ -71,5 +71,8 @@
 .formobile {
     padding: 50px;
     background-color: $violet;
-    
+    position: fixed;
+    bottom: 10%;
+    right: 20%;
+    z-index: 10000;
 }

@@ -74,6 +74,10 @@
 .formobile {
   padding: 50px;
   background-color: #4F46E5;
+  position: fixed;
+  bottom: 10%;
+  right: 20%;
+  z-index: 10000;
 }
 
 /* ----------------------------------------------
