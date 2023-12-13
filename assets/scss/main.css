@@ -297,6 +297,9 @@ button {
   width: 32px;
   height: 32px;
 }
+.navbar__body nav ul a li p {
+  margin: 0 10px;
+}
 .navbar__footer {
   margin: 30px auto;
   width: 100%;
