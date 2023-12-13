@@ -569,6 +569,10 @@ button {
   .body__table {
     overflow: scroll;
   }
+  .body__table-list tbody tr td {
+    border-top: 1px solid #E2E8F0;
+    border-bottom: 1px solid #E2E8F0;
+  }
   .body__table-list tbody tr td .btn__outline {
     padding: 10px 50px;
   }
