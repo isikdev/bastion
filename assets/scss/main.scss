@@ -10,12 +10,13 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    transition: all 0.1s ease;
+    transition: all 0.11111s ease;
 }
 
 ul[class],
 ol[class] {
     padding: 0;
+    margin: 0;
 }
 
 body,
@@ -170,11 +171,13 @@ button {
                     list-style: none;
                     display: flex;
                     align-items: center;
-                    margin: 5px 0px;
-                    padding: 5px;
+                    margin: 5px 0;
+                    padding: 5px 0;
                     border-radius: 4px;
+                    opacity: .8;
                     &:hover {
                         background-color: $dark__violet;
+                        opacity: 1;
                     }
                     img {
                         width: 32px;
@@ -374,7 +377,7 @@ button {
                 td {
                     text-align: center;
                     font-size: 16px;
-                    padding: 20px 0;
+                    padding: 20px 0;    
                     .btn__outline {
                         padding: 10px 30px;
                     }
