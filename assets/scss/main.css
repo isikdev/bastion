@@ -84,6 +84,14 @@
     transform-origin: 0% 100%;
   }
 }
+.preloader {
+  z-index: 100000;
+  background-color: #fff;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+
 *,
 *::before,
 *::after {
@@ -117,10 +125,10 @@ dd {
 }
 
 body {
-  min-height: 100vh;
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   font-family: "Inter", sans-serif;
+  position: relative;
 }
 body::-webkit-scrollbar {
   width: 14px;

@@ -12,5 +12,5 @@ $('.count').each(function () {
 });
 let preloader = $(".preloader");
 $(window).on('load', function () {
-    preloader.delay(1800).fadeOut('slow');
+    preloader.delay(180000).fadeOut('slow');
 });  

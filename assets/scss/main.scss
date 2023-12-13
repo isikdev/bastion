@@ -38,10 +38,10 @@ dd {
 }
 
 body {
-    min-height: 100vh;
     scroll-behavior: smooth;
     text-rendering: optimizeSpeed;
     font-family: "Inter", sans-serif;
+    position: relative;
     &::-webkit-scrollbar {
         width: 14px;
         background-color: #e2e8f0;
