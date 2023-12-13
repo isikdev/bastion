@@ -294,9 +294,8 @@ button {
   opacity: 1;
 }
 .navbar__body nav ul a li img {
-  width: 25px;
-  height: 25px;
-  padding-right: 5px;
+  width: 32px;
+  height: 32px;
 }
 .navbar__footer {
   margin: 30px auto;
