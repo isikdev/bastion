@@ -442,6 +442,9 @@ button {
 .body__transactions-search form button:hover {
   opacity: 0.7;
 }
+.body__table {
+  padding: 20px 0;
+}
 .body__table-list table {
   width: 100%;
   border-collapse: collapse;
