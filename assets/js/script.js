@@ -13,6 +13,5 @@ $('.count').each(function () {
 let preloader = $(".preloader");
 let navbar = $(".navbar");
 $(window).on('load', function () {
-    preloader.fadeOut(5000);
-    navbar.fadeIn(5000);
+    preloader.fadeOut(3000);
 });  
