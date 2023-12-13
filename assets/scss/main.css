@@ -555,4 +555,7 @@ button {
   .body__transactions-title-item {
     margin: 10px auto;
   }
+  .btn__outline {
+    margin: 10px 20px;
+  }
 }/*# sourceMappingURL=main.css.map */
