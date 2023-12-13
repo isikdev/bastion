@@ -14,6 +14,7 @@
   color: #344055;
   border-radius: 18px;
   font-weight: 500;
+  text-align: center;
 }
 .btn__outline:hover {
   background-color: #4F46E5;
@@ -336,11 +337,11 @@ button {
   justify-content: space-between;
   width: 100%;
 }
-.body__head-support button {
+.body__head-support a {
   margin: 0 10px;
   width: 100%;
 }
-.body__head-support button:first-child {
+.body__head-support a:first-child {
   margin-left: 0;
 }
 .body__user {
