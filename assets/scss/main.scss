@@ -491,4 +491,10 @@ button {
     .body {
         padding: 10px;
     }
+    .body__transactions-search form button {
+        margin-left: 0;
+    }
+    .body__transactions-search form input {
+        width: 80%;
+    }
 }
