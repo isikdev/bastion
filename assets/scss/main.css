@@ -515,10 +515,18 @@ button {
 }
 @media screen and (max-width: 970px) {
   .navbar__wrapper {
-    left: -120% !important;
+    left: -120%;
     width: 100%;
   }
   .body {
     margin-left: 0;
+  }
+}
+@media screen and (max-width: 720px) {
+  .body__balance {
+    flex-wrap: wrap;
+  }
+  .body__table-list thead tr td {
+    font-size: 12px;
   }
 }/*# sourceMappingURL=main.css.map */

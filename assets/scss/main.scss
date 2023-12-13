@@ -1,6 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
 // обнуление css
-@import "_responsive";
 @import "_assets";
 @import "_root";
 @import "_animate";
@@ -426,10 +425,18 @@ button {
 }
 @media screen and (max-width: 970px) {
     .navbar__wrapper {
-        left: -120% !important;
+        left: -120%;
         width: 100%;
     }
     .body {
         margin-left: 0;
+    }
+}
+@media screen and (max-width: 720px) {
+    .body__balance {
+        flex-wrap: wrap;
+    }
+    .body__table-list thead tr td {
+        font-size: 12px;
     }
 }
