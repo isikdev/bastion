@@ -312,6 +312,7 @@ button {
 
 .body {
   padding: 30px;
+  margin-left: 320px;
 }
 .body__head-account {
   background-color: #080325;
