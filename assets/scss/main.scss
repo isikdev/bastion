@@ -431,12 +431,22 @@ button {
     .body {
         margin-left: 0;
     }
-}
-@media screen and (max-width: 720px) {
     .body__balance {
         flex-wrap: wrap;
     }
     .body__table-list thead tr td {
         font-size: 12px;
+    }
+    .body__balance-item {
+        margin: 10px 0;
+    }
+    .body__head-support {
+        flex-wrap: wrap;
+    }
+    .body__head-support a {
+        margin: 10px 0;
+    }
+    .body__transactions-title {
+        flex-wrap: wrap;
     }
 }
