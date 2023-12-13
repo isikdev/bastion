@@ -115,6 +115,24 @@
   max-height: 100%;
 }
 
+@media screen and (max-width: 1123px) {
+  .btn__outline {
+    font-size: 12px;
+  }
+  .body__transactions-search form {
+    padding: 10px;
+  }
+  .body__balance-item h1 {
+    font-size: 14px;
+  }
+  .body__balance-item h3 {
+    font-size: 20px;
+  }
+  .navbar__wrapper {
+    left: -120%;
+    width: 100%;
+  }
+}
 *,
 *::before,
 *::after {
@@ -204,6 +222,7 @@ button {
 }
 .wrapper {
   display: flex;
+  position: relative;
 }
 
 .navbar {
@@ -496,10 +515,4 @@ button {
   width: 28px;
   height: 28px;
   margin-right: 5px;
-}
-
-@media screen and (max-width: 1123px) {
-  .body__transactions-search form {
-    padding: 10px;
-  }
 }/*# sourceMappingURL=main.css.map */
