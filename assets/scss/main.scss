@@ -329,8 +329,8 @@ button {
         form {
             display: flex;
             align-items: center;
+            border: 2px solid $light__gray;
             input {
-                border: 2px solid $light__gray;
                 border-radius: 1000px;
                 outline: none;
                 padding: 10px 20px;

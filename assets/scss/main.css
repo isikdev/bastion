@@ -421,9 +421,9 @@ button {
 .body__transactions-search form {
   display: flex;
   align-items: center;
+  border: 2px solid #E2E8F0;
 }
 .body__transactions-search form input {
-  border: 2px solid #E2E8F0;
   border-radius: 1000px;
   outline: none;
   padding: 10px 20px;
