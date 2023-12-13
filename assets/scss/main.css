@@ -85,11 +85,16 @@
   }
 }
 .preloader {
-  z-index: 100000;
+  z-index: 10000;
   background-color: #fff;
   width: 100vw;
   height: 100vh;
   text-align: center;
+}
+.preloader__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 *,
@@ -183,12 +188,7 @@ button {
   display: flex;
 }
 
-.navbar {
-  position: relative;
-  overflow: scroll;
-}
 .navbar__wrapper {
-  overflow-y: scroll;
   max-width: 320px;
   min-height: 100%;
   width: 100%;

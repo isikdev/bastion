@@ -94,10 +94,7 @@ button {
 }
 // navbar
 .navbar {
-    position: relative;
-    overflow: scroll;
     &__wrapper {
-        overflow-y: scroll;
         max-width: 320px;
         min-height: 100%;
         width: 100%;
