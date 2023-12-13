@@ -296,9 +296,6 @@ button {
 .navbar__body nav ul a li img {
   width: 30px;
   height: 30px;
-  padding-right: 5px;
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 .navbar__footer {
   margin: 30px auto;
