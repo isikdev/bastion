@@ -11,7 +11,8 @@ $('.count').each(function () {
     });
 });
 let preloader = $(".preloader");
+let navbar = $(".navbar");
 $(window).on('load', function () {
-    preloader.fadeOut(18000);
-    $(".navbar").fadeIn(18000)
+    preloader.fadeOut(5000);
+    navbar.fadeIn(5000);
 });  
