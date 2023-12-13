@@ -193,9 +193,9 @@ button {
 }
 .navbar__wrapper {
   overflow-y: scroll;
-  max-width: 320px;
+  max-width: 350px;
   min-height: 100%;
-  width: 100%;
+  width: 320px;
   height: 100%;
   padding: 0 20px;
   top: 0;
@@ -300,7 +300,6 @@ button {
 }
 
 .body {
-  margin-left: 320px;
   padding: 30px;
 }
 .body__head-account {
