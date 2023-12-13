@@ -525,10 +525,10 @@ button {
     flex-wrap: wrap;
   }
   .body__table-list thead tr td {
-    font-size: 12px;
+    font-size: 14px;
   }
   .body__table-list tbody tr td {
-    font-size: 14px;
+    font-size: 16px;
   }
   .body__balance-item {
     margin: 10px 0;
@@ -543,6 +543,11 @@ button {
     flex-wrap: wrap;
     margin: 10px 0;
     width: 100%;
+  }
+  .body__transactions-search form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
   }
 }
 @media screen and (max-width: 600px) {
@@ -569,5 +574,6 @@ button {
   }
   .body__table-list thead tr td {
     padding: 30px 50px;
+    white-space: nowrap;
   }
 }/*# sourceMappingURL=main.css.map */
