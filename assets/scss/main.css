@@ -539,11 +539,14 @@ button {
   .body__transactions-title {
     flex-wrap: wrap;
     margin: 10px 0;
+    width: 100%;
   }
 }
 @media screen and (max-width: 600px) {
   .body__transactions-search {
-    margin: 20px auto;
+    margin: 20px 0;
+    width: 100%;
+    justify-content: space-between;
   }
   .body__transactions-title-item h1 {
     text-align: center;
