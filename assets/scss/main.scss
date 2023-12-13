@@ -474,4 +474,10 @@ button {
     .body__table {
         overflow: scroll;
     }
+    .body__table-list tbody tr td .btn__outline {
+        padding: 10px 50px;
+    }
+    .body__table-list thead tr td {
+        padding: 30px 50px;
+    }
 }
