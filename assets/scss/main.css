@@ -188,7 +188,11 @@ button {
   display: flex;
 }
 
+.navbar {
+  z-index: 8000;
+}
 .navbar__wrapper {
+  overflow-y: scroll;
   max-width: 320px;
   min-height: 100%;
   width: 100%;

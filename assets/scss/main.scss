@@ -94,7 +94,9 @@ button {
 }
 // navbar
 .navbar {
+    z-index: 8000;
     &__wrapper {
+        overflow-y: scroll;
         max-width: 320px;
         min-height: 100%;
         width: 100%;
