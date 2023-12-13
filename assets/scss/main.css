@@ -496,4 +496,10 @@ button {
   width: 28px;
   height: 28px;
   margin-right: 5px;
+}
+
+@media screen and (max-width: 1123px) {
+  .body__transactions-search form {
+    padding: 10px;
+  }
 }/*# sourceMappingURL=main.css.map */

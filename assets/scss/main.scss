@@ -407,3 +407,8 @@ button {
         margin-right: 5px;
     }
 }
+@media screen and (max-width: 1123px) {
+    .body__transactions-search form {
+        padding: 10px;
+    }
+}
