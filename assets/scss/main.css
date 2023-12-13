@@ -276,7 +276,6 @@ button {
 .navbar__body nav ul a {
   text-decoration: none;
   color: #CBCFD5;
-  padding-left: 10px;
 }
 .navbar__body nav ul a:hover {
   color: #fff;
@@ -295,8 +294,11 @@ button {
   opacity: 1;
 }
 .navbar__body nav ul a li img {
-  width: 32px;
-  height: 32px;
+  width: 30px;
+  height: 30px;
+  padding-right: 5px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .navbar__footer {
   margin: 30px auto;
