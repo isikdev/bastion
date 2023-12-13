@@ -538,5 +538,6 @@ button {
   }
   .body__transactions-title {
     flex-wrap: wrap;
+    margin: 10px 0;
   }
 }/*# sourceMappingURL=main.css.map */
