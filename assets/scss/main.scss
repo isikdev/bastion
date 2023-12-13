@@ -92,7 +92,9 @@ button {
 // navbar
 .navbar {
     position: relative;
+    overflow: scroll;
     &__wrapper {
+        overflow-y: scroll;
         max-width: 320px;
         min-height: 100%;
         width: 100%;
@@ -106,6 +108,14 @@ button {
         flex-direction: column;
         justify-content: space-between;
         align-content: stretch;
+        &::-webkit-scrollbar {
+            width: 7px;
+            background-color: #fff;
+        }
+        &::-webkit-scrollbar-thumb {
+            width: 5px;
+            background-color: #fff;
+        }
     }
     &__head,
     &__footer {
@@ -183,12 +193,17 @@ button {
     }
     // navbar__footer user
     &__footer {
-        border-top: 2px solid $light__blue;
-        width: 100%;
         margin: 30px auto;
+        width: 100%;
+    }
+    &__footer,
+    &__body {
+        margin: 10px 0;
     }
     &__user {
         padding: 10px 0;
+        border-top: 2px solid $light__blue;
+        width: 100%;
     }
     .btn__second {
         display: none;
@@ -196,7 +211,7 @@ button {
 }
 // body main
 .body {
-    margin-left: 350px;
+    margin-left: 320px;
     padding: 30px;
     &__head-account {
         background-color: $dark__blue;
@@ -263,18 +278,18 @@ button {
             margin: 0 0;
         }
         h1 {
-            font-size: 20px;
+            font-size: 16px;
             font-weight: 700;
         }
         h3 {
             font-weight: 400;
-            font-size: 28px;
+            font-size: 24px;
             display: flex;
             align-items: center;
             padding-top: 30px;
             img {
-                width: 36px;
-                height: 36px;
+                width: 28px;
+                height: 28px;
             }
         }
     }
@@ -300,7 +315,7 @@ button {
     }
     &__transactions-title-item {
         h1 {
-            font-size: 32px;
+            font-size: 28px;
         }
     }
     &__transactions-search {
@@ -338,7 +353,7 @@ button {
                 border: 0px none;
                 outline: 0px none;
                 td {
-                    font-size: 20px;
+                    font-size: 16px;
                     font-weight: 600;
                     padding: 10px;
                     border: 0px none;
@@ -357,6 +372,9 @@ button {
                     text-align: center;
                     font-size: 16px;
                     padding: 20px 0;
+                    .btn__outline {
+                        padding: 10px 30px;
+                    }
                 }
             }
         }

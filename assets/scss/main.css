@@ -134,8 +134,10 @@ button {
 
 .navbar {
   position: relative;
+  overflow: scroll;
 }
 .navbar__wrapper {
+  overflow-y: scroll;
   max-width: 320px;
   min-height: 100%;
   width: 100%;
@@ -149,6 +151,14 @@ button {
   flex-direction: column;
   justify-content: space-between;
   align-content: stretch;
+}
+.navbar__wrapper::-webkit-scrollbar {
+  width: 7px;
+  background-color: #fff;
+}
+.navbar__wrapper::-webkit-scrollbar-thumb {
+  width: 5px;
+  background-color: #fff;
 }
 .navbar__head, .navbar__footer {
   flex: 0 1 auto;
@@ -218,19 +228,23 @@ button {
   color: #fff;
 }
 .navbar__footer {
-  border-top: 2px solid #344055;
-  width: 100%;
   margin: 30px auto;
+  width: 100%;
+}
+.navbar__footer, .navbar__body {
+  margin: 10px 0;
 }
 .navbar__user {
   padding: 10px 0;
+  border-top: 2px solid #344055;
+  width: 100%;
 }
 .navbar .btn__second {
   display: none;
 }
 
 .body {
-  margin-left: 350px;
+  margin-left: 320px;
   padding: 30px;
 }
 .body__head-account {
@@ -294,19 +308,19 @@ button {
   margin: 0 0;
 }
 .body__balance-item h1 {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 700;
 }
 .body__balance-item h3 {
   font-weight: 400;
-  font-size: 28px;
+  font-size: 24px;
   display: flex;
   align-items: center;
   padding-top: 30px;
 }
 .body__balance-item h3 img {
-  width: 36px;
-  height: 36px;
+  width: 28px;
+  height: 28px;
 }
 .body__news marquee {
   border: 2px solid #E2E8F0;
@@ -327,7 +341,7 @@ button {
   margin: 20px 0;
 }
 .body__transactions-title-item h1 {
-  font-size: 32px;
+  font-size: 28px;
 }
 .body__transactions-search form {
   display: flex;
@@ -361,7 +375,7 @@ button {
   outline: 0px none;
 }
 .body__table-list thead tr td {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 600;
   padding: 10px;
   border: 0px none;
@@ -380,6 +394,9 @@ button {
   text-align: center;
   font-size: 16px;
   padding: 20px 0;
+}
+.body__table-list tbody tr td .btn__outline {
+  padding: 10px 30px;
 }
 .body__balance-btc {
   border-radius: 100%;
