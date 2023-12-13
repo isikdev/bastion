@@ -276,7 +276,7 @@ button {
 .navbar__body nav ul a {
   text-decoration: none;
   color: #CBCFD5;
-  margin-left: 10px;
+  padding-left: 10px;
 }
 .navbar__body nav ul a:hover {
   color: #fff;
