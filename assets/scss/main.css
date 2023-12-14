@@ -21,8 +21,8 @@
   text-align: center;
 }
 .btn__outline:hover {
-  background-color: #4F46E5;
-  border: 2px solid #4F46E5;
+  background-color: #4f46e5;
+  border: 2px solid #4f46e5;
   color: #fff;
   opacity: 1;
 }
@@ -73,7 +73,7 @@
 
 .formobile {
   padding: 10px;
-  background-color: #4F46E5;
+  background-color: #4f46e5;
   border-radius: 100%;
   position: fixed;
   top: 3%;
@@ -296,7 +296,7 @@ button {
 .navbar__burger button {
   border: 0;
   outline: 0;
-  background-color: #4F46E5;
+  background-color: #4f46e5;
   border-radius: 100%;
   padding: 10px;
 }
@@ -416,8 +416,8 @@ button {
   width: 100%;
 }
 .body__balance-item:hover {
-  background-color: #4F46E5;
-  border: 2px solid #4F46E5;
+  background-color: #4f46e5;
+  border: 2px solid #4f46e5;
   color: #fff;
 }
 .body__balance-item:first-child {
@@ -479,7 +479,7 @@ button {
   border: 0px none;
   border-radius: 1000px;
   outline: 0px none;
-  background-color: #4F46E5;
+  background-color: #4f46e5;
   padding: 10px;
   margin-left: 10px;
 }
