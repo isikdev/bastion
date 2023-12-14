@@ -119,6 +119,9 @@ button {
             background-color: #fff;
         }
     }
+    &__wrapper-active {
+        left: 0;
+    }
     &__head,
     &__footer {
         flex: 0 1 auto;

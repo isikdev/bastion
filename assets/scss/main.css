@@ -253,6 +253,9 @@ button {
   width: 5px;
   background-color: #fff;
 }
+.navbar__wrapper-active {
+  left: 0;
+}
 .navbar__head, .navbar__footer {
   flex: 0 1 auto;
 }

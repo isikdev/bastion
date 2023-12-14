@@ -15,3 +15,8 @@ $('.count').each(function () {
 // $(window).on('load', function () {
 //     preloader.fadeOut(3000);
 // });  
+let btn = $(".menu__mob")
+
+btn.click(function() {
+    
+})
