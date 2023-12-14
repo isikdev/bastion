@@ -18,5 +18,6 @@ $('.count').each(function () {
 let btn = $(".menu__mob")
 
 btn.click(function() {
+    $(".navbar__wrapper").toggleClass("navbar__wrapper-active");
     
 })
