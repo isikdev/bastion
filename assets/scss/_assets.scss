@@ -81,9 +81,17 @@
         background: transparent;
         border: 0px none;
         outline: 0px none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
         img {
             width: 20px;
             height: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
         }
     }
 }
