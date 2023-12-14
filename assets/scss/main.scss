@@ -121,6 +121,7 @@ button {
     }
     &__wrapper-active {
         transition: all .5s ease;
+        max-width: 100%;
         width: 100%;
         left: 0 !important;
     }
@@ -428,7 +429,10 @@ button {
         font-size: 20px;
     }
 }
-@media screen and (max-width: 970px) {
+@media screen and (max-width: 1030px) {
+    .formobile {
+        display: block;
+    }
     .navbar__wrapper {
         left: -120%;
         width: 100%;

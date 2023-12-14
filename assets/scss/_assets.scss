@@ -74,8 +74,9 @@
     border-radius: 100%;
     position: fixed;
     bottom: 5%;
-    left: 1%;
+    right: 5%;
     z-index: 10000;
+    display: none;
     button {
         background: transparent;
         border: 0px none;
