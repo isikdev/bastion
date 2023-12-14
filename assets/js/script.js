@@ -10,11 +10,11 @@ $('.count').each(function () {
         }
     });
 });
-// let preloader = $(".preloader");
-// let navbar = $(".navbar");
-// $(window).on('load', function () {
-//     preloader.fadeOut(3000);
-// });  
+let preloader = $(".preloader");
+let navbar = $(".navbar");
+$(window).on('load', function () {
+    preloader.fadeOut(3000);
+});  
 let btn = $(".menu__mob")
 
 btn.click(function() {
