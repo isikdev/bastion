@@ -69,11 +69,20 @@
     height: 20px;
 }
 .formobile {
-    padding: 20px;
+    padding: 15px;
     background-color: $violet;
     border-radius: 100%;
     position: fixed;
-    bottom: 10%;
-    right: 20%;
+    bottom: 5%;
+    left: 1%;
     z-index: 10000;
+    button {
+        background: transparent;
+        border: 0px none;
+        outline: 0px none;
+        img {
+            width: 40px;
+            height: 40px;
+        }
+    }
 }
