@@ -91,7 +91,6 @@ button {
 .wrapper {
     display: flex;
     position: relative;
-    padding: 50px 0;
 }
 // navbar
 .navbar {
@@ -121,7 +120,7 @@ button {
         }
     }
     &__wrapper-active {
-        transition: all .5s ease;
+        transition: all 0.5s ease;
         max-width: 100%;
         width: 100%;
         left: 0 !important;
@@ -415,7 +414,7 @@ button {
     }
 }
 @media screen and (max-width: 1130px) {
-    // assets 
+    // assets
     .btn__outline {
         font-size: 12px;
     }
@@ -471,6 +470,9 @@ button {
     }
 }
 @media screen and (max-width: 700px) {
+    .wrapper {
+        padding: 50px 0;
+    }
     .body__transactions-search {
         margin: 20px 0;
         width: 100%;

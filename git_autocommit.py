@@ -6,4 +6,4 @@ while True:
     subprocess.run(["git", "commit", "-m", "update"])
     subprocess.run(["git", "push"])
 
-    time.sleep(120)  # Подождать 2 минут (120 секунд)
+    time.sleep(30)

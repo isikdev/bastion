@@ -233,7 +233,6 @@ button {
 .wrapper {
   display: flex;
   position: relative;
-  padding: 50px 0;
 }
 
 .navbar {
@@ -589,6 +588,9 @@ button {
   }
 }
 @media screen and (max-width: 700px) {
+  .wrapper {
+    padding: 50px 0;
+  }
   .body__transactions-search {
     margin: 20px 0;
     width: 100%;
