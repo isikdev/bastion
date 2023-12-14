@@ -72,8 +72,9 @@
 }
 
 .formobile {
-  padding: 50px;
+  padding: 20px;
   background-color: #4F46E5;
+  border-radius: 100%;
   position: fixed;
   bottom: 10%;
   right: 20%;
