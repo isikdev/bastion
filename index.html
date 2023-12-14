@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#4f46e5"/>
     <title>Bastion</title>
+    <link rel="manifest" href="./manifest/manifest.webmanifest">
     <link rel="stylesheet" href="./assets/scss/main.css">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" /> -->
     <!-- favicon -->
@@ -45,25 +47,54 @@
                     <div class="navbar__body">
                         <nav>
                             <ul>
-                                <a href="#"><li><img src="./assets/img/menu/account.png" alt="Crypto Account"><p>Crypto
-                                        Account</p>
-                                </li></a>
-                                <a href="#"><li><img src="./assets/img/menu/bank.png" alt="Bank account"><p>Bank
-                                        account</p>
-                                </li></a>
-                                <a href="#"><li><img src="./assets/img/menu/card.png" alt="Cards"><p>Cards</p></li></a>
-                                <a href="#"><li><img src="./assets/img/menu/payment.png" alt="Acquiring payments"><p>Acquiring
-                                        payments</p></li></a>
-                                <a href="#"><li><img src="./assets/img/menu/buy.png" alt="Buy / Sell crypto"><p>Buy / Sell
-                                        crypto</p></li></a>
-                                <a href="#"><li><img src="./assets/img/menu/earn.png" alt="How much you earned"><p>How much
-                                        you
-                                        earned</p></li></a>
-                                <a href="#"><li><img src="./assets/img/menu/loans.png" alt="Loans & escrow"><p>Loans &
-                                        escrow</p>
-                                </li></a>
-                                <a href="#"><li><img src="./assets/img/menu/answers.png" alt="Total transwers"><p>Total
-                                        transwers</p></li></a>
+                                <a href="#">
+                                    <li><img src="./assets/img/menu/account.png" alt="Crypto Account">
+                                        <p>Crypto
+                                            Account</p>
+                                    </li>
+                                </a>
+                                <a href="#">
+                                    <li><img src="./assets/img/menu/bank.png" alt="Bank account">
+                                        <p>Bank
+                                            account</p>
+                                    </li>
+                                </a>
+                                <a href="#">
+                                    <li><img src="./assets/img/menu/card.png" alt="Cards">
+                                        <p>Cards</p>
+                                    </li>
+                                </a>
+                                <a href="#">
+                                    <li><img src="./assets/img/menu/payment.png" alt="Acquiring payments">
+                                        <p>Acquiring
+                                            payments</p>
+                                    </li>
+                                </a>
+                                <a href="#">
+                                    <li><img src="./assets/img/menu/buy.png" alt="Buy / Sell crypto">
+                                        <p>Buy / Sell
+                                            crypto</p>
+                                    </li>
+                                </a>
+                                <a href="#">
+                                    <li><img src="./assets/img/menu/earn.png" alt="How much you earned">
+                                        <p>How much
+                                            you
+                                            earned</p>
+                                    </li>
+                                </a>
+                                <a href="#">
+                                    <li><img src="./assets/img/menu/loans.png" alt="Loans & escrow">
+                                        <p>Loans &
+                                            escrow</p>
+                                    </li>
+                                </a>
+                                <a href="#">
+                                    <li><img src="./assets/img/menu/answers.png" alt="Total transwers">
+                                        <p>Total
+                                            transwers</p>
+                                    </li>
+                                </a>
                             </ul>
                         </nav>
                     </div>
@@ -71,7 +102,11 @@
                         <div class="navbar__settings navbar__body">
                             <nav>
                                 <ul>
-                                    <a href="#"><li><img src="./assets/img/menu/settings.png" alt="Settings"><p>Settings</p></li></a>
+                                    <a href="#">
+                                        <li><img src="./assets/img/menu/settings.png" alt="Settings">
+                                            <p>Settings</p>
+                                        </li>
+                                    </a>
                                 </ul>
                             </nav>
                         </div>
@@ -262,6 +297,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script src="./assets/js/script.js"></script>
+    <script>
+        if ("serviceWorker" in navigator) {
+            navigator.serviceWorker.register("./sw.js");
+        }
+    </script>
+
 </body>
 
 </html>
