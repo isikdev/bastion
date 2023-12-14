@@ -13,7 +13,7 @@ $('.count').each(function () {
 let preloader = $(".preloader");
 let navbar = $(".navbar");
 $(window).on('load', function () {
-    preloader.fadeOut(3000);
+    preloader.fadeOut(300);
 });  
 let btn = $(".menu__mob")
 
